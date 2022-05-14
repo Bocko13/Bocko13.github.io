@@ -33,14 +33,16 @@ section{
 }
 
 .left img{
-  max-width: 100%;
+  max-width: 60%;
   height: auto;
   vertical-align: middle;
-  border-radius: 7px ;
+  border-radius: 50%;
+  margin-left: 20%;
+  border: 0.1mm solid black;
 }
 
 .right > *{
-  margin-bottom:1.1rem;
+  margin-bottom:1.3rem;
   color: #fff;
 }
 
@@ -50,7 +52,17 @@ section{
   display: inline-block;
   padding: 2px 15px;
   font-size: 16px;
+  font-weight: bold;
   border-radius: 4px;
+}
+
+.right h3{
+  font-size: 20px;
+}
+
+.right h3 span{
+  color: var(--color);
+  font-size: 20px;
 }
 
 .right h1{
@@ -65,14 +77,14 @@ section{
 .btn{
   text-decoration: none;
   display:inline-block;
-  padding:10px 25px;
+  padding:11px 25px;
   border:2px  solid var(--color);
   border-radius: 5px;
   position: relative;
   text-align: center;
   z-index: 1;
- border-bottom:1px  solid var(--color) ;
- border-top:1px  solid var(--color) ;
+   border-bottom:1px  solid var(--color) ;
+    border-top:1px  solid var(--color) ;
 }
 
 .btn::after{
@@ -89,6 +101,18 @@ section{
 
 .btn:hover:after{
   width: 100%;
+}
+
+ .bold{
+  font-weight: bold;
+  display: inline;
+}
+
+#red{
+  color: whitesmoke;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 10px;
 }
 
 @media(max-width:768px) {
